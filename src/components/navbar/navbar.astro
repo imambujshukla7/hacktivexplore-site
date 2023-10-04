@@ -1,0 +1,21 @@
+---
+import Link from "@components/ui/link.astro";
+import Button from "@components/ui/button.astro";
+import logo from "assets/nnlogo.png";
+import { Image } from "astro:assets";
+---
+
+<div
+	
+	class="flex  max-w-screen-6xl px-4 mx-auto items-center justify-between  md:px-6 lg:px-8 z-10 md:pt-2 mt-2 relative">
+
+		<div class="flex gap-3  justify-center items-center text-lg font-semibold text-gray-900  rounded-lg dark:text-white focus:outline-none focus:shadow-outline">
+			<Image src={logo} class="w-10" alt=""/>			
+			<div>HacktivExplore</div>
+
+	</div>
+		<div class=" bg-black rounded-3xl flex items-center px-2 py-1 h-fit  text-white text-sm"><a href="https://drive.google.com/drive/folders/14cn5BKUG1gKB7JG9mgYQBdAs2h1Kdo_N?usp=sharing"><svg stroke="currentColor" fill="#ffffff" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="astro-PVC4WNY3"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm144.1 454.9L437.7 677.8a8.02 8.02 0 0 1-12.7-6.5V353.7a8 8 0 0 1 12.7-6.5L656.1 506a7.9 7.9 0 0 1 0 12.9z" class="astro-PVC4WNY3"></path></svg></a><a class="  ml-1 " href="https://linktr.ee/hacktivspacecommunity">HacktivSpace</a></div>
+		
+	</div>
+	
+</div>
